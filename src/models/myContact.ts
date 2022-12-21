@@ -4,7 +4,7 @@ export class MyContact{
     email?:string
     photo?:string
     mobile?:string
-    compant?:string
+    company?:string
     title?:string
     groupId?:string
 }

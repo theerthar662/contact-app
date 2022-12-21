@@ -23,14 +23,14 @@
             8. Dependency Injection - performs inside constructor
                 - syntax: access specifier variable-name:class-name
             9. Data Binding - Data sharing inside a methods
-                - one way Binding
+                - One way Binding
                         -component(ts) to view(html)
                            - string interpolation {{variable-name}}
                            - property binding - [attribute]="property-name"
                         -view(html) to component(ts)
                             - event binding - (event-name)="function -name()"
                             - event binding using $event argument - (event-name)="function-name($event)"
-                - two way binding
+                - Two way binding
                             - using ngModel:
                                 - Import FormsModule in appModule
                                 -[(ngModel)]="property-name"
